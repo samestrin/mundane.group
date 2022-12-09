@@ -1,13 +1,11 @@
 ---
-title: Legal notice
+title: Legal Notice
 seo:
-  title: Legal notice
-permalink: /imprint/index.html
+  title: Legal Notice
+permalink: /legal-notice/index.html
 description: Imprint infos
 layout: page
 ---
-
-Edit your details in `_data/meta.js`
 
 {{ meta.address.firma }}
 {{ meta.address.street }}

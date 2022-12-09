@@ -3,17 +3,16 @@ const package = require('../../package.json');
 module.exports = {
   pkv: package.version || 'v1',
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
-  siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
-  siteType: 'Person', // schema
+  siteName: 'Mundane.Group',
+  siteDescription: 'The Mundane Group develops and manages content websites.',
+  siteType: 'Business', // schema
   locale: 'en_EN',
   lang: 'en',
-  skipContent: 'Skip to content',
-  author: 'Lene Saile', // i.e. Lene Saile - author's name. Must be set.
-  authorEmail: '', // i.e. hola@lenesaile.com - email of the author
-  authorWebsite: '', // i.e. https.://www.lenesaile.com - the personal site of the author
-  themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
+  skipContent: 'Skip to Content',
+  author: 'Mundane.Group', // i.e. Lene Saile - author's name. Must be set.
+  authorEmail: 'info@mundane.group', // i.e. hola@lenesaile.com - email of the author
+  authorWebsite: 'https://mundane.group', // i.e. https.://www.lenesaile.com - the personal site of the author
+  themeColor: '#AFFC41', //  Manifest: defines the default theme color for the application
   themeBgColor: '#F3F3F3', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   meta_data: {
     opengraph_default: '/assets/images/opengraph-default.jpg',
@@ -23,23 +22,22 @@ module.exports = {
   },
   blog: {
     // this is for the rss feed
-    name: 'My great Web Development Blog',
-    description:
-      'Tell the word what you are writing about in your blog! It will show up on feed readers.'
+    name: 'The Mundane.Group Blog',
+    description: 'Covering the latest Mundane.Group related news.'
   },
   pagination: {
     itemsPerPage: 20
   },
   address: {
     // edit all presets or leave empty. They are being used in the pages for privacy.md and imprint.md
-    firma: 'Organization name',
+    firma: 'Mundane.Group',
     street: '123 Main St.',
-    city: 'Ciudad',
-    state: 'Estado',
+    city: 'City',
+    state: 'State',
     zip: '12345',
-    mobileDisplay: '+34 1234567',
-    mobileCall: ' +341234567',
-    email: 'hola@yoursite.com',
+    mobileDisplay: '+1 123-456-7890',
+    mobileCall: ' +1 123-456-7890',
+    email: 'info@mundane.group',
     cif: ''
   },
   menu: {

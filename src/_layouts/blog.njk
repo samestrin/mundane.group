@@ -2,17 +2,18 @@
 layout: base
 ---
 
-<header class="section spot-color-secondary">
-  <div class="section__inner region">
-    <div class="wrapper flow">
-      <section class="prose text-center">
-        <h1 class="fade-in">{{ title }}</h1>
-      </section>
+
+<header class="section">
+  <div class="section__inner blue">
+    <div class="wrapper flow region">
+      <h1 class="text-center white">{{ title }}</h1>
     </div>
   </div>
-
-  {% include 'svg/divider-edgy.svg' %}
+  <div class="header">
+  {% include 'svg/divider-waves.svg' %}
+  </div>
 </header>
+
 
 <article class="wrapper region">
   <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">

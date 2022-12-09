@@ -120,3 +120,76 @@ article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
 .preload-transitions * {
   transition: none !important;
 }
+
+/* */
+
+div.blue {
+  background: #0066ff;
+  color: --var(white) !important;
+}
+div.header {
+  height: 85px !important;
+  overflow: hidden !important;
+}
+
+header.section h1 {
+  color: --var(white) !important;
+}
+
+a.skip-link {
+  width: 100%;
+}
+
+header {
+  width: 100% !important;
+  padding: 0px;
+  margin: 0px;
+}
+header.wrapper {
+  background-color: #002233 !important;
+  width: 100% !important;
+}
+footer,
+div.headline {
+  background-color: #0500ff !important;
+  color: white !important;
+  border-bottom: 1px solid #eaeaea;
+  width: 100% !important;
+  margin: 0px;
+  padding: 10px;
+}
+span.right {
+  float: right;
+  padding: 10px;
+}
+header.wrapper div {
+  width: 100% !important;
+}
+
+h1.white {
+  color: white;
+}
+
+@media screen and (max-width: 48em) {
+  ul.expand {
+    background-color: white !important;
+    color: black !important;
+    z-index: 9990;
+  }
+
+  span.right {
+    padding: 0px;
+  }
+  #mainnav > button {
+    z-index: 9999;
+  }
+}
+
+template#burger-template {
+  z-index: 9999;
+  border: 10px;
+}
+:root {
+  --color-light: --var(white) !important;
+  --color-dark: --var(black) !important;
+}
