@@ -185,6 +185,10 @@ h1.white {
   }
 }
 
+.site-foot__inner {
+  font-size: 90%;
+}
+
 template#burger-template {
   z-index: 9999;
   border: 10px;
